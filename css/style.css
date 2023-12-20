@@ -1,7 +1,9 @@
 body {
     margin:0;
-padding:0;
-background-color: #FFF8F8;
+    padding:0;
+    background-color: #FFF8F8;
+    --pinkparent: rgba(254,144,159,0.5);
+    --mainpink:#FEA7B4;
 }
 
 a {
@@ -9,22 +11,14 @@ a {
 }
 
 a:active, a:visited {
-    color:#FEA7B4;
+    color:var(--mainpink);
 }
 
 .container{
     padding:0;
-    width: 100vw;
-    
+    width: 100vw;  
 }
 
-.topbar{
-    height: 40px;
-    background-color: #FFF8F8;
-    color: #FEA7B4;
-    font-size: 2vw;
-    text-align: center;
-}
 
 /*Navbar Section*/
 .container-fluid {
@@ -36,14 +30,13 @@ a:active, a:visited {
     background-color: white;
 }
 
-
 .nav-link {
-    color: #FEA7B4;
+    color: var(--mainpink);
 }
 
 .nav-link:hover {
     color: white;
-    background-color:#FEA7B4;
+    background-color:var(--mainpink);
     border-radius: 10px;
 }
 
@@ -54,36 +47,29 @@ a:active, a:visited {
 }
 
 
-
-
 /*Hero Section*/
-
 .jumbotron {
-   background-image: url("../images/background.png");
+    background-image: url("../images/background.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
     color:#FE91A0;
-    /*color: white;*/
 }
 
 .jumbo-div {
-    background-color: rgba(254,144,159,0.0);
     background-color: rgba(255,255,255,0.5);
-
     width: 100vw;
     height:100vh;
     padding-top: 20vh;;
 }
 
-/*Work Section*/
 
+/*Work Section*/
 #work-container {
-    color:#FEA7B4;
+    color:var(--mainpink);
     min-height: 100vh;
     max-width: 100vw;
     background-color: rgba(254,144,159,0.1);  
-
 }
 
 #work-container h1, #skills h1 {
@@ -100,12 +86,13 @@ a:active, a:visited {
     box-shadow: 5px 5px 10px 0px;  
 }
 
+
 /*Skills Section*/
 #skills {
     min-height: 100vh;
     max-width: 100vw;
     background-color: white;
-    color: #FEA7B4;
+    color: var(--mainpink);
     padding: 20px;
 }
 
@@ -118,18 +105,12 @@ a:active, a:visited {
 }
 
 /*About & Contact Section*/
-
-#about-contact {
-    display: flex;
-}
-
 #about, #contact {
    height: 100vh; 
 }
 
-
 #about {
-    background-color: #FEA7B4;
+    background-color: var(--mainpink); 
     color: white;
     display: flex;
     flex-direction: column;
@@ -144,7 +125,7 @@ a:active, a:visited {
 
 #contact {
     background-color: white;
-    color:#FEA7B4;
+    color:var(--mainpink);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -161,9 +142,9 @@ a:active, a:visited {
     border:none;
     border-radius: 0;
     background-color:white;
-    color: #FEA7B4;
+    color: var(--mainpink);
     width: 40vw;
-    border-bottom: 3px solid #FEA7B4;
+    border-bottom: 3px solid var(--mainpink);
     height: 10vh;
 }
 
@@ -172,9 +153,9 @@ a:active, a:visited {
 }
 
 #contact .btn {
-    background-color:#FEA7B4;
+    background-color:var(--mainpink);
     color: white;
-    border: 1px solid #FEA7B4;
+    border: 1px solid var(--mainpink);
     border-radius: 0;
     margin-top: 8vh;
     width: 40vw;
@@ -182,8 +163,8 @@ a:active, a:visited {
 
 #contact .btn:hover {
     background-color: white;
-    color: #FEA7B4;
-    border: 1px solid #FEA7B4;
+    color: var(--mainpink);
+    border: 1px solid var(--mainpink);
 }
 
 /*Footer Section*/
@@ -232,16 +213,16 @@ footer {
 
 footer ul {
     margin-top: 7vw;
-    color:#FEA7B4;
+    color:var(--mainpink);
 }
 
 @media screen and (max-width: 767px) {
    
     #navbarSupportedContent {
-        margin-left: 20px;
+        text-align: center;
     }
      
-     .jumbo-div {
+    .jumbo-div {
         background-color: rgba(255,255,255,0.8);    
     }
 
