@@ -89,9 +89,14 @@ a:active, a:visited {
 .card {
     border: none;
     margin-top: 10px;
-    /*box-shadow: 5px 5px 10px 0px;*/
-    color: grey;
+    color: grey; 
     
+}
+
+
+
+.cardbox:hover {
+    box-shadow: 5px 5px 10px 0px;  
 }
 
 #skills {
