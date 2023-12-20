@@ -12,6 +12,12 @@ a:active, a:visited {
     color:#FEA7B4;
 }
 
+.form-control:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
 .container{
     padding:0;
     width: 100vw;
@@ -26,6 +32,7 @@ a:active, a:visited {
     text-align: center;
 }
 
+/*Navbar Section*/
 .container-fluid {
    
     padding:0;
@@ -54,6 +61,8 @@ a:active, a:visited {
     justify-content: center;
 }
 
+/*Hero Section*/
+
 .jumbotron {
    background-image: url("../images/background.png");
     background-size: cover;
@@ -72,33 +81,31 @@ a:active, a:visited {
     padding-top: 20vh;;
 }
 
+/*Work Section*/
+
 #work-container {
     color:#FEA7B4;
     min-height: 100vh;
     max-width: 100vw;
-    background-color: rgba(254,144,159,0.1);
-    
+    background-color: rgba(254,144,159,0.1);  
 
 }
 
 #work-container h1, #skills h1 {
     padding: 10vh 0;
-
     
 }
 .card {
     border: none;
     margin-top: 10px;
-    color: grey; 
-    
+    color: grey;  
 }
-
-
 
 .cardbox:hover {
     box-shadow: 5px 5px 10px 0px;  
 }
 
+/*Skills Section*/
 #skills {
     min-height: 100vh;
     max-width: 100vw;
@@ -114,6 +121,8 @@ a:active, a:visited {
 .margin-bottom {
     margin-bottom: 40px;
 }
+
+/*About & Contact Section*/
 
 #about-contact {
     display: flex;
@@ -176,12 +185,55 @@ a:active, a:visited {
     border: 1px solid #FEA7B4;
 }
 
+/*Footer Section*/
 .icons {
     height: 1.5vw;
     margin-right: 10px;
 }
 
-.icons:hover {
-    box-shadow: 5px 5px 5px 5px;
+#fb {
+    background-image: url('../images/sm-fb-1.png');
 }
+
+#li {
+    background-image: url('../images/sm-li-1.png');
+}
+
+#x {
+    background-image: url('../images/sm-x-1.png');
+}
+
+#fb,#li,#x,#fb:hover,#li:hover,#x:hover {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+}
+
+#fb:hover {
+    background-image: url('../images/sm-fb-2.png');
+}
+
+#li:hover {
+    background-image: url('../images/sm-li-2.png');
+}
+
+#x:hover {
+    background-image: url('../images/sm-x-2.png');
+}
+
+footer {
+    background-color: white;
+    height: 20vh;
+    display: flex;
+    align-items:
+}
+
+footer ul {
+    margin-top: 7vw;
+    color:#FEA7B4;
+}
+
+
+
 

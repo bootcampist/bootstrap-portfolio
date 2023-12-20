@@ -1,7 +1,7 @@
 # Bootstrap Portfolio
 
 ## Description
-This portfolio was created using Bootstrap in order to display personal Front-End web development projects. The website features a different design to the previous portfolio with the aim of exploring the functionality of Bootstrap more fully. CSS elements such as Flexbox were also included to complement the use Bootstrap as well as images and icons edited in Canva and Photoshop.
+This portfolio was created using Bootstrap in order to display personal Front-End web development projects. The website features a different design to the previous portfolio with the aim of exploring the functionality of Bootstrap more fully. Images and icons edited in Canva and Photoshop were also included to complement the Bootstrap.
 [A screenshot of the website](./images/w002-bootstrap-portfolio-screenshot.png)
 
 ## Installation
