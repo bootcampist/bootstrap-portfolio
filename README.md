@@ -3,6 +3,7 @@
 ## Description
 This portfolio was created using Bootstrap in order to display personal Front-End web development projects. The website features a different design to the previous portfolio with the aim of exploring the functionality of Bootstrap more fully. Images and icons edited in Canva and Photoshop were also included to complement the Bootstrap.
 [A screenshot of the website](./images/w002-bootstrap-portfolio-screenshot.png)
+![bootstrap-portfolio-screenshot](https://github.com/bootcampist/bootstrap-portfolio/assets/152117886/da472099-93cd-4500-9707-4893f9677d2b)
 
 ## Installation
 
